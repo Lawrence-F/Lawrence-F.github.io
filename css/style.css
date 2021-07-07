@@ -1,0 +1,271 @@
+body {
+    background-image: url("resources/BG.png");
+    background-attachment: fixed;
+    backdrop-filter: blur(6px);
+    margin: 0;
+  }
+
+html {
+    scroll-behavior: smooth;
+   }
+
+.navbar {
+    z-index: 1;
+    background-color:rgba(0,0,0,0.4);
+    overflow: hidden;
+    padding-left: 340px;
+    padding-right: 340px;
+    position: sticky;
+    top: 0;
+  }
+
+.navlink {
+    margin-top: -15px;
+    float: right;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .25px;
+    padding: 42px 24px;
+  }
+
+.navIcon {
+    float: left;
+    margin-top: 8px;
+  }
+
+ul {
+    list-style-type: none;
+  }
+
+hr {
+    border-width: 0.5px;
+    width: 500px;
+  }
+
+.hr {
+    background-color: #65569F;
+    height: 12px;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+  }
+
+.about {
+    position: relative;
+    margin-top: 142px;
+    background-color: #313133;
+    height: 1100px;
+    border-top-style: solid;
+    border-top-width: 12px;
+    border-top-color: #65569F;
+    box-shadow: inset 0 7px 9px -7px rgba(0,0,0,0.4);
+  }
+
+.picture {
+    background-image: url("resources/Profile_Picture.png");
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+  }
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #65569F;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+
+
+h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    margin: 8px;
+  }
+
+h4 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    color: white;
+  }
+
+h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.15px;
+    color: white;
+    text-align: center;
+  }
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.25px;
+    color: white;
+  }
+
+.p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.25px;
+    color: white;
+    list-style-type: circle;
+  }
+
+.footer {
+    background-color: #65569F;
+    padding-top: 36px;
+    padding-bottom: 64px;
+  }
+
+.footerIcon {
+    height: 24px;
+    width: 24px;
+    float: left;
+    padding: 8px 4px;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+body::-webkit-scrollbar-track {
+    background: #313133;        /* color of the tracking area */
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #a7a7a7;    /* color of the scroll thumb */
+    border-radius: 20px;
+    border: 3px solid #313133;
+  }
+
+.ul {
+    justify-content: center;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+
+.arrowHome {
+    position: absolute;
+    background-color: white;
+    border: none;
+    border-radius: 100%;
+    padding: 13px 13px;
+    width: 54px;
+    height: 54px;
+    margin-top: -20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+  }
+
+.buttonContact {
+    width: 208px;
+    margin-top: 24px;
+    background-color: #65569F;
+    border: none;
+    color: white;
+    padding: 8px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.25px;
+    transition: all 0.5s;
+    cursor: pointer;
+    transition: all 0.5s;
+    cursor: pointer;
+
+  }
+
+.buttonContact span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+.buttonContact span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+.buttonContact:hover span {
+    padding-right: 25px;
+  }
+  
+.buttonContact:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.row {
+    position: absolute;
+    top: 50%;
+    margin-left: 350px;
+    margin-right: 350px;
+    display: flex;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+.column {
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 749px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 50%;
+  }
+
+#about {
+margin-top: 30px;
+}
