@@ -524,7 +524,7 @@ footer {
 
 @media (max-width: 576px) {
   .hero {
-    height: 80vh;
+    height: 90vh;
   }
 
   p {
