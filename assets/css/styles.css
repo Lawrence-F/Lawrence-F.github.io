@@ -31,6 +31,7 @@ a[href^=tel] {
 body {
   background: url("../../assets/img/bg-lines.svg") center repeat-y, var(--bgdark2);
   overflow-x: hidden;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 h1, h2, h3, h4, h5, h6, p, li {
