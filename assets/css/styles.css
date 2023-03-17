@@ -523,6 +523,9 @@ footer {
 }
 
 @media (max-width: 576px) {
+  .hero {
+    height: 80vh;
+  }
   p {
     font-size: 14px;
     line-height: 1.8;
